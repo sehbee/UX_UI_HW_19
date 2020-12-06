@@ -38,6 +38,10 @@ header {
     padding-right: 8.33%;
 }
 
+#hamburger {
+    display: none;
+}
+
 .home, .about {
     padding: 25px;
     text-decoration: none;
@@ -167,8 +171,7 @@ h2{
     font-size: 15px;
     transition: all 0.2s ease 0s;
     margin-bottom: 0;
-    border: 2px solid red;
-
+    
 }
 
 #scrollbutton:hover {
@@ -395,15 +398,113 @@ body {
     flex-direction: column;
 }
 
-@media only screen and (max-width: 600) {
-    .home, .about, .work, .fun {
-        font-size: 10px;
+@media only screen and (max-width: 1000px) {
+    .navbar {
+        display: none;
     }
-    .hero {
+
+    #hamburger {
         display: flex;
-        flex-direction: column;
+        margin-right: 10%;
+        transform: scale(0.5);
+        filter: invert(0%) sepia(20%) saturate(300%) hue-rotate(322deg) brightness(88%) contrast(77%);
     }
 
+    .hero-content h1 {
+        font-size: 65px;
+        
+    }
 
+    .hero-content h2 {
+        font-size: 30px;
+    }
+
+    .hero {
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows:  100%;
+    }
+
+    .logo {
+        transform: scale(0.8);
+    }
+
+    .logodiv {
+        margin-left: 8%;
+    }
+
+    #scrollbutton {
+        font-size: 12px;
+    }
+
+    #workarrow {
+        width: 10px;
+    }
+
+    span:hover {
+        -webkit-text-fill-color: #5399da;
+        -webkit-text-stroke-color: #5399da;
+        font-size: 35px;
+    }
+
+    .portfolio_link1 {
+        margin: 0% 2% 5% 2%;
+        border-radius: 25px;
+        border: 1px solid #D4D4D4;
+        transition: all 0.2s ease 0s;
+    }
+
+    .portfolio_link2 {
+        margin: 0% 2% 5% 2%;
+        border-radius: 25px;
+        border: 1px solid #D4D4D4;
+        transition: all 0.2s ease 0s;
+    }
+    .portfolio_link3 {
+        margin: 0% 2% 5% 2%;
+        border-radius: 25px;
+        border: 1px solid #D4D4D4;
+        transition: all 0.2s ease 0s;
+    }
+
+    .footer-content h5 {
+        font-size: 30px;
+    }
+
+    .linkedin, .facebook {
+        width: 25px;
+        height: 25px;
+      
+        padding: 6px;
+        transition: all 0.2s ease 0s;
+        
+    }
+
+    .linkedin:hover, .facebook:hover{
+        width: 30px;
+        height: 30px;
+    }
+    .email {
+        width: 31px;
+        height: 31px;
+        padding: 3px;
+        transition: all 0.2s ease 0s;
+    }
+    
+    .instagram {
+        width: 36px;
+        height: 36px;
+        padding: 3px;
+        transition: all 0.2s ease 0s;
+    }
+    
+    .instagram:hover {
+        width: 41px;
+        height: 41px;
+    }
+    
+    .email:hover{
+        width: 36px;
+        height: 36px;
+    }
     
 }
