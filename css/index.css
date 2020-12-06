@@ -89,18 +89,16 @@ header {
     padding: 2%;
 }
 
+
 .hero {
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows:  100%;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
     position: relative;
     height: 80vh;
     
 }
 
-#line1 {
-    size: 10;
-}
 
 
 .hero-content {
@@ -207,6 +205,14 @@ h2{
     }
   }
 
+
+.v1 {
+    border-left: 2px solid #5399da;
+    height: 2150px;
+    position: absolute;
+    margin-top: 1820px;
+    margin-left: 20px;
+}
 #portfolio_links {
     padding: 5% 0 0 0;
 }
@@ -420,8 +426,8 @@ body {
     }
 
     .hero {
-        grid-template-columns: 10% 80% 10%;
-        grid-template-rows:  100%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .logo {
