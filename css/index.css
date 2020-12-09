@@ -349,7 +349,7 @@ h2{
 .linkedin, .facebook {
     width: 35px;
     height: 35px;
-  
+    filter: invert(0%) sepia(20%) saturate(300%) hue-rotate(322deg) brightness(88%) contrast(77%);
     padding: 6px;
     transition: all 0.2s ease 0s;
 }
@@ -363,6 +363,7 @@ h2{
     width: 41px;
     height: 41px;
     padding: 3px;
+    filter: invert(0%) sepia(20%) saturate(300%) hue-rotate(322deg) brightness(88%) contrast(77%);
     transition: all 0.2s ease 0s;
 }
 
@@ -370,6 +371,7 @@ h2{
     width: 46px;
     height: 46px;
     padding: 3px;
+    filter: invert(0%) sepia(20%) saturate(300%) hue-rotate(322deg) brightness(88%) contrast(77%);
     transition: all 0.2s ease 0s;
 }
 
@@ -412,26 +414,26 @@ body {
     #hamburger {
         display: flex;
         margin-right: 10%;
-        transform: scale(0.5);
+        transform: scale(0.8);
         filter: invert(0%) sepia(20%) saturate(300%) hue-rotate(322deg) brightness(88%) contrast(77%);
     }
 
     .hero-content h1 {
-        font-size: 65px;
+        font-size: 80px;
         
     }
 
     .hero-content h2 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .hero {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
     .logo {
-        transform: scale(0.8);
+        transform: scale(1.4);
     }
 
     .logodiv {
@@ -439,11 +441,11 @@ body {
     }
 
     #scrollbutton {
-        font-size: 12px;
+        font-size: 20px;
     }
 
     #workarrow {
-        width: 10px;
+        width: 20px;
     }
 
     span:hover {
@@ -453,32 +455,32 @@ body {
     }
 
     .portfolio_link1 {
-        margin: 0% 2% 5% 2%;
+        margin: 0% 0.5% 5% 0.5%;
         border-radius: 25px;
         border: 1px solid #D4D4D4;
         transition: all 0.2s ease 0s;
     }
 
     .portfolio_link2 {
-        margin: 0% 2% 5% 2%;
+        margin: 0% 0.5% 5% 0.5%;
         border-radius: 25px;
         border: 1px solid #D4D4D4;
         transition: all 0.2s ease 0s;
     }
     .portfolio_link3 {
-        margin: 0% 2% 5% 2%;
+        margin: 0% 0.5% 5% 0.5%;
         border-radius: 25px;
         border: 1px solid #D4D4D4;
         transition: all 0.2s ease 0s;
     }
 
     .footer-content h5 {
-        font-size: 30px;
+        font-size: 60px;
     }
 
     .linkedin, .facebook {
-        width: 25px;
-        height: 25px;
+        width: 50px;
+        height: 50px;
       
         padding: 6px;
         transition: all 0.2s ease 0s;
@@ -486,31 +488,33 @@ body {
     }
 
     .linkedin:hover, .facebook:hover{
-        width: 30px;
-        height: 30px;
+        width: 60px;
+        height: 60px;
     }
     .email {
-        width: 31px;
-        height: 31px;
+        width: 59px;
+        height: 59px;
         padding: 3px;
         transition: all 0.2s ease 0s;
     }
     
     .instagram {
-        width: 36px;
-        height: 36px;
+        width: 64px;
+        height: 64px;
         padding: 3px;
         transition: all 0.2s ease 0s;
     }
     
     .instagram:hover {
-        width: 41px;
-        height: 41px;
+        width: 74px;
+        height: 74px;
     }
     
     .email:hover{
-        width: 36px;
-        height: 36px;
+        width: 69px;
+        height: 69px;
     }
     
 }
+
+
