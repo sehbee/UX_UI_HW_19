@@ -206,13 +206,7 @@ h2{
   }
 
 
-.v1 {
-    border-left: 2px solid #5399da;
-    height: 2150px;
-    position: absolute;
-    margin-top: 1820px;
-    margin-left: 20px;
-}
+
 #portfolio_links {
     padding: 5% 0 0 0;
 }
@@ -334,7 +328,7 @@ h2{
 }
 
 .footer-content h5:hover {
-    text-shadow: 2px 2px lightgrey;
+    font-size: 53px;
     color: #348EE0;
 }
 .footer_images {
@@ -414,17 +408,17 @@ body {
     #hamburger {
         display: flex;
         margin-right: 10%;
-        transform: scale(0.8);
+        
         filter: invert(0%) sepia(20%) saturate(300%) hue-rotate(322deg) brightness(88%) contrast(77%);
     }
 
     .hero-content h1 {
-        font-size: 80px;
+        font-size: 95px;
         
     }
 
     .hero-content h2 {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .hero {
@@ -451,7 +445,7 @@ body {
     span:hover {
         -webkit-text-fill-color: #5399da;
         -webkit-text-stroke-color: #5399da;
-        font-size: 35px;
+        font-size: 60px;
     }
 
     .portfolio_link1 {
@@ -476,6 +470,11 @@ body {
 
     .footer-content h5 {
         font-size: 60px;
+    }
+
+    .footer-content h5:hover {
+        font-size: 63px;
+        color: #348EE0;
     }
 
     .linkedin, .facebook {
