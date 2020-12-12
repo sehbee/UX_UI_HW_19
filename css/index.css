@@ -25,7 +25,7 @@
 
 
 html {
-    background-image: linear-gradient(180deg, #FCFCFC, white, #f0f0f0, white);
+    background-color: #FCFCFC;
     scroll-behavior: smooth;
 }
 
