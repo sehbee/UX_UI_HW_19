@@ -12,7 +12,7 @@ $(".scrollbutton").click(function () {
     (function changeWord(){
         var words = [
             'a film geek',
-            'a part-time musician',
+            'an amateur musician',
             'a coffee addict',
             'a Korean-American',
             'your friend',
